@@ -1,10 +1,10 @@
 import cv2
 import pyautogui
-import numpy as np
+import numpy as npy
 
 cap = cv2.VideoCapture(0)
-PINK_MIN = np.array([120, 50, 50], np.uint8)
-PINK_MAX = np.array([180, 180, 200], np.uint8)
+PINK_MIN = npy.array([120, 50, 50], np.uint8)
+PINK_MAX = npy.array([180, 180, 200], np.uint8)
 centroid_x = 0
 centroid_y = 0
 s = ''
