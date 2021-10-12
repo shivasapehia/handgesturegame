@@ -1,1 +1,1 @@
-# handgesturegame
+# handgesture-game
